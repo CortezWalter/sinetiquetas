@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="88.9mm" height="50.8mm" viewBox="0 0 88.9 50.8" version="1.1">
+  <defs>
+    <clipPath id="card-clip">
+      <rect x="0" y="0" width="88.9" height="50.8" rx="3" ry="3"></rect>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#card-clip)">
+    <rect width="88.9" height="50.8" fill="#F2E9D8"></rect>
+
+    <text x="4" y="6.4" font-family="&#39;Playfair Display&#39;, serif" font-style="italic" font-weight="500" font-size="4.6" fill="#1A1210">Sin Etiquetas .club</text>
+    <text x="84.9" y="6.4" font-family="&#39;JetBrains Mono&#39;, monospace" font-size="2.2" font-weight="700" letter-spacing="0.18" fill="#720E21" text-anchor="end">CATAS NÓMADES · MENDOZA</text>
+
+    <text x="4" y="23.5" font-family="&#39;Playfair Display&#39;, serif" font-weight="500" letter-spacing="-0.01" font-size="14" fill="#1A1210">Haise</text>
+    <text x="4" y="34.5" font-family="&#39;Playfair Display&#39;, serif" font-weight="500" font-style="italic" letter-spacing="-0.01" font-size="14" fill="#720E21">Gimenez</text>
+
+    <rect x="4" y="38.2" width="8" height="0.3" fill="#720E21"></rect>
+    <text x="4" y="42" font-family="&#39;JetBrains Mono&#39;, monospace" font-size="2.6" font-weight="700" letter-spacing="0.14" fill="#720E21">SOMMELIER · ENOLOGÍA Y GASTRONOMÍA</text>
+
+    <text x="4" y="46.4" font-family="&#39;JetBrains Mono&#39;, monospace" font-size="1.9" font-weight="600" letter-spacing="0.18" fill="#1A1210" opacity="0.7">INSTAGRAM</text>
+    <text x="4" y="49.4" font-family="&#39;JetBrains Mono&#39;, monospace" font-size="2.8" font-weight="600" letter-spacing="0.02" fill="#1A1210">@sinetiquetas.club</text>
+
+    <text x="84.9" y="46.4" font-family="&#39;JetBrains Mono&#39;, monospace" font-size="1.9" font-weight="600" letter-spacing="0.18" fill="#1A1210" opacity="0.7" text-anchor="end">CONTACTO</text>
+    <text x="84.9" y="49.4" font-family="&#39;JetBrains Mono&#39;, monospace" font-size="2.8" font-weight="600" letter-spacing="0.02" fill="#1A1210" text-anchor="end">consultas@sinetiquetas.club</text>
+  </g>
+</svg>

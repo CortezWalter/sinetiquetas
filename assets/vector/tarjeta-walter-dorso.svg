@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="88.9mm" height="50.8mm" viewBox="0 0 88.9 50.8" version="1.1">
+  <defs>
+    <clipPath id="card-clip-back">
+      <rect x="0" y="0" width="88.9" height="50.8" rx="3" ry="3"></rect>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#card-clip-back)">
+    <rect width="88.9" height="50.8" fill="#720E21"></rect>
+
+    <text x="44.45" y="6.4" font-family="&#39;Playfair Display&#39;, serif" font-style="italic" font-weight="500" font-size="4.6" fill="#F2E9D8" text-anchor="middle">Sin Etiquetas .club</text>
+
+    <rect x="28.450000000000003" y="9" width="32" height="32" rx="1.5" ry="1.5" fill="#F2E9D8"></rect>
+    <image xlink:href="qr-sinetiquetas.png" href="qr-sinetiquetas.png" x="29.650000000000002" y="10.2" width="29.6" height="29.6" preserveAspectRatio="xMidYMid meet"></image>
+
+    <text x="44.45" y="46.2" font-family="&#39;Playfair Display&#39;, serif" font-weight="500" font-size="4.4" fill="#F2E9D8" text-anchor="middle">El vino, <tspan fill="#C9956B" font-style="italic">sin miedo.</tspan></text>
+
+    <text x="44.45" y="49.6" font-family="&#39;JetBrains Mono&#39;, monospace" font-size="1.7" font-weight="700" letter-spacing="0.28" fill="#C9956B" text-anchor="middle">CATAS NÓMADES · MENDOZA · AR</text>
+  </g>
+</svg>

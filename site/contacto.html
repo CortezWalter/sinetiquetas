@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#720E21">
+
+  <title>Reservas y contacto — Sin Etiquetas | Catas en Mendoza</title>
+  <meta name="description" content="Reservá una cata de Sin Etiquetas en Mendoza o llevá una experiencia a tu casa. Escribinos por Instagram o mail: contestamos rápido y sin vueltas.">
+  <link rel="canonical" href="https://sinetiquetas.club/contacto.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sin Etiquetas">
+  <meta property="og:title" content="Reservas y contacto — Sin Etiquetas">
+  <meta property="og:description" content="Reservá tu cata en Mendoza. Sin vueltas, sin términos y condiciones en PDF.">
+  <meta property="og:url" content="https://sinetiquetas.club/contacto.html">
+  <meta property="og:image" content="https://sinetiquetas.club/assets/logo-borravino.png">
+  <link rel="icon" href="assets/logo-borravino.png" type="image/png" sizes="any">
+  <link rel="apple-touch-icon" href="assets/logo-borravino.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,400..600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir al contenido</a>
+
+  <svg class="svg-defs" aria-hidden="true" focusable="false">
+    <symbol id="glass" viewBox="0 0 100 150">
+      <path d="M26 14 Q50 30 74 14 Q72 56 50 66 Q28 56 26 14 Z"/>
+      <path d="M50 66 L50 124"/>
+      <path d="M32 126 Q50 119 68 126"/>
+    </symbol>
+  </svg>
+
+  <header class="nav is-scrolled" id="nav">
+    <a class="nav__logo" href="index.html" aria-label="Sin Etiquetas — inicio">
+      <img src="assets/logo-borravino.png" alt="Sin Etiquetas">
+    </a>
+    <button type="button" class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navMenu">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <nav class="nav__menu" id="navMenu" aria-label="Principal">
+      <a class="nav__link" href="index.html#propuesta">Qué somos</a>
+      <a class="nav__link" href="index.html#equipo">Quiénes somos</a>
+      <a class="nav__link" href="index.html#experiencias">Cómo se vive</a>
+      <a class="nav__link" href="index.html#agenda">Agenda</a>
+      <a class="nav__link" href="tienda.html">Tienda</a>
+      <a class="nav__cta" href="contacto.html" aria-current="page">Reservá <span class="arrow" aria-hidden="true">→</span></a>
+    </nav>
+  </header>
+  <div class="nav__scrim" id="navScrim" aria-hidden="true"></div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <a class="page-hero__back" href="index.html"><span aria-hidden="true">←</span> Volver al inicio</a>
+        <p class="sec-tag"><span>Siguiente paso</span></p>
+        <h1 class="page-title">Reservas y <em>dudas</em>.</h1>
+        <p class="page-lead">¿Querés venir, traer gente o simplemente preguntar si el vino de la próxima cata va a ser rico? Escribinos. No tardamos en responder y no te vamos a mandar un PDF con términos y condiciones.</p>
+
+        <div class="contact-cards">
+          <a class="contact-card reveal" href="https://www.instagram.com/sinetiquetas.club/" target="_blank" rel="noopener noreferrer">
+            <p class="contact-card__label">Instagram</p>
+            <p class="contact-card__value">@sinetiquetas.club</p>
+            <p class="contact-card__note">Fechas y novedades, primero acá.</p>
+          </a>
+          <a class="contact-card reveal" data-delay="1" href="mailto:consultas@sinetiquetas.club">
+            <p class="contact-card__label">E-mail</p>
+            <p class="contact-card__value">consultas@sinetiquetas.club</p>
+            <p class="contact-card__note">Para reservas y consultas largas.</p>
+          </a>
+          <div class="contact-card reveal" data-delay="2">
+            <p class="contact-card__label">WhatsApp</p>
+            <p class="contact-card__value">Próximamente</p>
+            <p class="contact-card__note">Lo estamos preparando.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--paper" aria-labelledby="form-title">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <p class="sec-tag"><span>Reservá tu lugar</span></p>
+          <h2 class="sec-title" id="form-title">Contanos qué tenés <em>ganas</em>.</h2>
+          <p class="sec-lead">Completá y te abrimos el correo con todo listo para enviar. Coordinamos fecha, lugar y la cantidad de copas chuecas necesarias.</p>
+        </header>
+
+        <form class="form form--wide reveal" id="reservaForm" novalidate>
+          <div class="field--row">
+            <div class="field">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Cómo te llamás" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="personas">Cuántos vienen</label>
+              <select id="personas" name="personas" required>
+                <option value="" disabled selected>Elegí una opción</option>
+                <option>1 a 2</option>
+                <option>3 a 6</option>
+                <option>7 a 12</option>
+                <option>Más de 12</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field--row">
+            <div class="field">
+              <label for="experiencia">Qué experiencia</label>
+              <select id="experiencia" name="experiencia" required>
+                <option value="" disabled selected>Elegí una opción</option>
+                <option>Sin miedo al vino</option>
+                <option>A ciegas</option>
+                <option>Maridajes imperfectos</option>
+                <option>Historias y copas</option>
+                <option>Una cata en mi casa (nómade)</option>
+                <option>Todavía no sé, ayúdenme</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="fecha">Fecha tentativa</label>
+              <input type="date" id="fecha" name="fecha">
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="mensaje">Mensaje (opcional)</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Contanos la ocasión, si hay alguien que “no sabe nada” de vino (mejor), alergias, lo que sea."></textarea>
+          </div>
+
+          <div class="hero__cta">
+            <button type="submit" class="btn btn--primary">Enviar reserva <span class="arrow" aria-hidden="true">→</span></button>
+          </div>
+          <p class="form-msg" id="reservaMsg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="strip" aria-labelledby="cierre-title">
+      <svg class="strip__glass" aria-hidden="true"><use href="#glass"/></svg>
+      <div class="wrap">
+        <div class="strip__inner reveal" style="margin-inline:auto;text-align:center;">
+          <h2 class="strip__title" id="cierre-title" style="margin-inline:auto;">El vino, <em>sin miedo.</em></h2>
+          <p class="strip__text" style="margin-inline:auto;">La próxima copa puede ser tuya. Nosotros ponemos el resto.</p>
+          <div class="hero__cta" style="justify-content:center;">
+            <a class="btn btn--ghost-light" href="https://www.instagram.com/sinetiquetas.club/" target="_blank" rel="noopener noreferrer">Seguinos en Instagram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a class="footer__logo" href="index.html" aria-label="Sin Etiquetas — inicio"><img src="assets/logo-blanco.png" alt="Sin Etiquetas"></a>
+          <p class="footer__tagline">Catas nómades · vino con alma</p>
+          <p class="footer__loc">Mendoza, Argentina · experiencias presenciales y futura tienda online.</p>
+        </div>
+        <nav class="footer__col" aria-label="Sitio">
+          <h2 class="footer__heading">Sitio</h2>
+          <ul class="footer__list">
+            <li><a href="index.html#propuesta">Qué somos</a></li>
+            <li><a href="index.html#equipo">Quiénes somos</a></li>
+            <li><a href="index.html#experiencias">Cómo se vive</a></li>
+            <li><a href="index.html#agenda">Agenda</a></li>
+            <li><a href="tienda.html">Tienda online</a></li>
+            <li><a href="contacto.html">Reservas y contacto</a></li>
+          </ul>
+        </nav>
+        <div class="footer__col">
+          <h2 class="footer__heading">Conectá</h2>
+          <ul class="footer__list">
+            <li><a href="https://www.instagram.com/sinetiquetas.club/" target="_blank" rel="noopener noreferrer">Instagram — @sinetiquetas.club</a></li>
+            <li><a href="mailto:consultas@sinetiquetas.club">consultas@sinetiquetas.club</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__rule" aria-hidden="true"></div>
+      <div class="footer__bottom">
+        <p>© <span id="y"></span> Sin Etiquetas. Todos los derechos reservados.</p>
+        <p>Hecho con cariño en Mendoza · <a href="#">By KREW</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
