@@ -612,6 +612,27 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   margin-bottom: 1.4rem;
 }
 .member__portrait .ph__initial { font-size: 8rem; }
+.member__photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 28%;
+  z-index: 1;
+}
+/* Cuando hay foto real: foto arriba, scrim para el caption, sin textura de puntos */
+.ph.has-photo::after {
+  background-image: none;
+  background: linear-gradient(to top, rgba(20, 8, 12, 0.5) 0%, rgba(20, 8, 12, 0) 42%);
+  mix-blend-mode: normal;
+  opacity: 1;
+  z-index: 2;
+}
+.ph.has-photo .ph__cap { z-index: 3; }
+/* Border-radius marcado por miembro (orden: TL TR BR BL) */
+.team .member:nth-child(2) .member__portrait { border-radius: 5px; } /* Daiana: sin borde marcado */
+.team .member:nth-child(3) .member__portrait { border-radius: 5px 5px 36px 5px; }  /* Walter: solo inferior derecha */
 .member__name {
   font-family: var(--serif);
   font-weight: 500;
